@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E ticketing</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-ticketing</title>
     <!--  -->
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
 
-</head>
-<body>
-    <header></header>
-    <main></main>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+  </head>
+  <body style="width: 1170px; margin-left: 7%">
+    <header>
+      <!-- nav started -->
+      <nav class="mb-4 pt-4">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+            </div>
+            <a class="raleway-font text-4xl font-extrabold">E-Ticketing</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 raleway-font text-lg font-medium"
+            >
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn text-[#1DD100] px-8 py-2 bg-[#1DD1001A] border-[#1DD1001A]"
+              >Bus <img src="images/bus-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- nav end -->
+    <main>
+      <!-- banner section -->
+      <div
+        class=""
+        style="background-image: url(images/banner.png); height: 550px"
+      >
+        <div class="hero-content text-center">
+          <div class="max-w-2xl pt-28">
+            <h1 class="text-5xl font-extrabold text-white raleway-font">
+              End to End Travel with <br /><span
+                class="font-extrabold text-[#1DD100]"
+                >E-Ticketing <br />
+                <span class="font-bold">Paribahan</span></span
+              >
+            </h1>
+            <p class="py-6 max-w-md text-white pl-14">
+                You can enjoy your favorite travel with us. Take a look and share your travel experience with us
+            </p>
+            <button class="btn px-8 text-black font-semibold text-xl border-[#1DD100] bg-[#1DD100] ">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+      <!-- banner complete -->
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
