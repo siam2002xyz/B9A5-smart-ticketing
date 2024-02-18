@@ -148,7 +148,12 @@
         <!-- destination set aria -->
         <div
           class="border-t-2 border-[#1DD100] bg-[#F7F8F8]"
-          style="border-radius: 80px"
+          style="
+            border-top-left-radius: 80px;
+            border-top-right-radius: 80px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+          "
         >
           <div>
             <h1 class="text-center pt-16">
@@ -159,9 +164,7 @@
           </div>
           <!-- heading border -->
           <div class="m-4 bg-white rounded-xl" style="height: 418px">
-            <!-- div number 1 -->
             <div>
-              <!-- div number 2 -->
               <div class="flex">
                 <div class="flex gap-3 pt-7 pl-5 text-3xl" style="width: 872px">
                   <div>
@@ -231,10 +234,62 @@
                 </div>
               </div>
             </div>
-            <!-- div number 2 -->
           </div>
-          <!-- div number 1  -->
+
+          <!-- destination section end -->
+          <!-- bus seat -->
+          <div>
+            <div style="width: 609px">
+              <div class="font-semibold text-2xl pl-6">
+                <h1>Select Your Seat</h1>
+                <hr />
+              </div>
+              <div class="flex justify-between py-5 px-4">
+                <div class="flex inter-font font-medium text-[#03071280]">
+                  <div><img src="images/seat-gray.png" alt="" /></div>
+                  <div>Available</div>
+                </div>
+                <!--  -->
+                <div class="flex inter-font font-medium text-green-500">
+                  <div><img src="images/seat-green.png" alt="" /></div>
+                  <div>Selected</div>
+                </div>
+              </div>
+              <hr />
+              <!-- sits -->
+              <div class="px-6" style="width: 609px">
+                <div class="">
+                  <div class="flex justify-between py-3 items-center">
+                    <p>A</p>
+                    <div class="justify-between">
+                      <button class="btn btn-gost px-6">A1</button>
+                      <button class="btn btn-gost px-6">A2</button>
+                    </div>
+                    <div class="justify-between">
+                      <button class="btn btn-gost px-6">A3</button>
+                      <button class="btn btn-gost px-6">A4</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="flex justify-between py-3">
+                    <p>B</p>
+                    <div class="justify-between">
+                      <button class="btn btn-gost px-6">B1</button>
+                      <button class="btn btn-gost px-6">B2</button>
+                    </div>
+                    <div class="justify-between">
+                      <button class="btn btn-gost px-6">B3</button>
+                      <button class="btn btn-gost px-6">B4</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- seat complete -->
+          </div>
         </div>
+        <!-- hole seat section -->
       </main>
     </section>
     <!-- footer started -->
